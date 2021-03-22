@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+/* usando el selector universal*/
+*{
+    text-decoration: line-through;
+}
+
+/* 
+Aplicamos el Selector de Etiquetas
+a la etiqueta body
+*/
+body{
+    background-color:darkgreen;
+    font-family: 'Syne Mono', monospace;
+}
+
+/*Aplicamos el Selector de Clases
+a las etiquetas header , main , footer
+*/
+.encuadrar{
+    background-color: azure;
+    border: 2px solid black;
+}
+
+.distancia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.centro{
+    width: 50%;
+    padding: 30px;
+}
+
+.title{
+    color: darkgreen;
+}
+
+/* Aplicamos los selectores de atributos*/
+[href]{
+    color: blue;
+}
+
+[href = "https://github.com/Zelechos" ]{
+    color: darkgrey;
+    font-size: 30px;
+}
+
+
+[class~="encuadrar"]{
+    text-align: center;    
+}
+
+[id|="mensaje"]{
+    color: yellow;
+    background-color:black;
+}
+
+[class^="encuadrar"],[class $="centro"]{
+    background-color:darkslategrey;
+}
+
+[id $="final"] , [class~="title"] {
+    background-color: darkslateblue;
+    color: darkcyan;
+    width: 300px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+[class $="distancia"] , [class ^= "distancia"]{
+    border-radius: 20px;
+}
+
+[href*="0"],[href*="Zelechos"],[href*="google"]{
+    font-size:20px;
+    background-color: darkslateblue;
+    color:darkcyan;
+    border-radius: 2px;
+}
+
+/* utilizando Selectores Conbinadores*/
+h3 + p , h2 + p{
+    background-color: darkslateblue;
+    color: darkcyan;
+    width: 300px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h1 ~ h2{
+    background-color:blueviolet;
+    border-radius: 5px;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header h1{
+    background-color: darkslateblue;
+    color: darkcyan;
+    width: 300px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+header > ul {
+    list-style: none;
+}
+
+header li{
+    float: left;
+    margin-right: 3%;
+}
+
+[href*=".com"] , [href*="0"]{
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+[class $= "#"]{
+    height: 150px;
+}
+
+

@@ -1,0 +1,126 @@
+/*Selector de etiqueta*/
+p{
+    color:red;
+}
+
+h1{
+    color:blue;
+}
+
+/*Selectores de clase*/
+.title{
+    color: green;
+}
+
+.text{
+    color: blueviolet;
+}
+
+
+/*Selectores de id
+    la recomendacion es no utilizarlo con css nunca
+    porque se usa para Js DOM
+*/
+#title{
+    color:aqua;
+}
+
+#text{
+    color:brown;
+}
+
+/*Selectores Universales
+    se aplica a todo el documento html
+*/
+*{
+    color:blue;
+}
+
+/*Selectores de Atributos*/
+/*seleccionar los elementos que tiene ese atributo*/
+[href]{
+    color:red;
+}
+
+/*seleccionar los elementos que tiene ese atributo y ese valor*/
+[href="#"]{
+    color:royalblue;
+}
+
+/*seleccionar los elementos que tiene ese atributo y 
+    almenos el valor una vez
+*/
+[class~="Verde"]{
+    color:darkblue;
+}
+
+/*seleccionar los elementos que tiene ese atributo y 
+    exactamente ese valor o que empiece  por el valor seguido de
+    un guion
+*/
+[class|="Verde"]{
+    color:darkgoldenrod;
+}
+
+/*seleccionar los elementos que tiene ese atributo y 
+    que empiezen con ese valor
+*/
+[class^="Rojo"]{
+    color:cyan;
+}
+
+
+/*seleccionar los elementos que tiene ese atributo y 
+    que acaben con ese valor
+*/
+[class$="Rojo"]{
+    color:fuchsia;
+}
+
+/*seleccionar los elementos que tiene ese atributo y 
+    que contengan ese valor 
+*/
+[class*="Rojo"]{
+    color:yellow;
+}
+
+/*Selectores Conbinadores*/
+
+/* Selector de Hermano Adyacente 
+    selecciona a una etiqueta que este justo debajo 
+    de la primera etiqueta asignada
+    se utiliza mayormente en encabezados
+*/
+h1 + h2{
+    color:aqua;
+}
+
+h2 + h2{
+    color:gray;
+}
+
+/* Selector de Hermano General
+    selecciona todos los hermanos que esten por debajo 
+    de la primer hermano definido
+    se utiliza mayormente en encabezados
+*/
+h1 ~ h3{
+    color:blueviolet;
+}
+
+/* Selector de Decendentes
+    selecciona todos los span que sean hijos de p
+*/
+p span{
+    color:green;
+}
+
+/* Selector de Hijo Directo
+    selecciona a las etiquetas hijos directo de la etiqueta
+    padre
+*/
+div > p{
+    color:gray;
+}
+
+
