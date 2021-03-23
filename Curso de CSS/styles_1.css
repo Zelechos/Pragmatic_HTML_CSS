@@ -1,0 +1,58 @@
+/*Especificidad , Cascada y Herencia*/
+
+/*
+    La Herencia : se aplica con el valor inherit , esto obliga al elemento 
+    a heredar la propiedad de sus elementos hijos 
+*/
+p{
+    color:blueviolet;
+}
+
+a{
+    /*
+        Con el inherit le decimos que tome el color de la etiqueta padre
+        en este caso p
+    */
+    color:inherit;
+}
+
+/*
+    La Cascada : es el orden en el que se aplicaran los estilos al ir leyendo el Css
+    los estilos que vienen despues sobreescriben a los anteriores es decir 
+    que los estilos que hayan sido escritos primero seran anulados y los que hayan sido
+    escrito despues tendran prioridad.
+*/
+#parrafo{
+    /*Cambia todo porque la etiqueta y clase tiene un especificidad de 1 , 10 respectivamente
+    y el ID una especificidad de 100*/
+    color:red;
+}
+
+.parrafo{
+    /*Cambia todo porque la etiqueta tiene un especificidad de 1 y la clase una especificidad de 10*/
+    color:aqua;
+}
+
+p{
+    /*Cambia todo porque este estilo esta despues del primer estilo de p que hemos definido*/
+    color:darkgreen;
+}
+
+p{
+    /*Cambia todo el estilo porque al poner important este es el estilo que se tomara en cuenta
+    por tener la especificidad mas alta*/
+    color:deeppink !important;
+}
+
+/*en resumen a mayor especificidad el estilo se tomara mas en cuenta y se mostrara*/
+
+/*
+    La Especificidad : es el peso que tiene un selector cuando hay conflictos de estilos
+    La w3c divide la especificidad en :
+        - Etiqueta : 1
+        - Clase y pseudoclases : 10
+        - ID : 100
+        - Estilos en linea : 1000
+        - !important : gana en prioridad a todos
+*/
+
