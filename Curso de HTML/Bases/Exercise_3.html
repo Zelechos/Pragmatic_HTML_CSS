@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas HTML</title>
+</head>
+<body>
+    <!-- Cabezera -->
+    <header>
+        <h1>Lo Universo de las Etiquetas HTML</h1>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section>
+            <h2>Una Breve Explicacion del uso correcto de las Etiquetas Section , Article , Aside</h2>
+            <!-- etiqueta Section -->
+            <article>
+                <header>
+                    <h3>Etiqueta Section</h3>
+                </header>
+                <p>
+                    Es un contenedor generico que agrupa contenido que esta relacionado. Cuando creamos bloques cuyo contenido es parte de un bloque total usaremos la etiqueta section.
+                </p>
+                <footer>
+                    <a href="#">Mas Informacion de la Etiqueta Section Aqui</a>
+                </footer>
+            </article>
+
+            <!-- etiqueta Article -->
+            <article>
+                <header>
+                    <h3>Etiqueta Article</h3>
+                </header>
+                <p>
+                    Es un contenedor que representa contenido independiente, es decir, podemos leer ese fragmento de contenido en cualquier otro sitio y tendria sentido por si mismo.
+                </p>
+                <footer>
+                    <a href="#">Mas Informacion de la Etiqueta Article Aqui</a>
+                </footer>
+            </article>
+
+            <!-- etiqueta Aside -->
+            <article>
+                <header>
+                    <h3>Etiqueta Aside</h3>
+                </header>
+                <p>
+                    Se Utiliza para representar contenido relacionado pero que no forma parte del contenido principal.
+                </p>
+                <footer>
+                    <a href="#">Mas Informacion de la Etiqueta Aside Aqui</a>
+                </footer>
+            </article>
+            <!-- Anidamiento y un poco de Teoria -->
+            <article>
+                <header>
+                    <h3>Anidamiento</h3>
+                    <h4>Y un Poco de Teoria ...</h4>
+                </header>
+                <p>
+                    Un Section puede contener Articles por <strong>ejemplo:</strong><br> si tenemos varios articulos que hablan de etiquetas de html, deben ir dentro de section, ya que es contenido relacionado entre si, y los article serian contenido independiente por que podriamos leer uno sin haber leido el resto y seguiria teniendo sentido.
+                </p>
+                <blockquote>
+                    El article es definido como un componente de la pagina de contenido independiente y esto implica que esta etiqueta puede tener un header y un footer propios.
+                </blockquote>    
+                <p>
+                    Tambien existe el caso en el que un article contenga varias sections, el articulo independiente podrian ser los nav o navegadores y este contener dentro sections como navegadores mas utilizados el 2020. 
+                </p>
+                <footer>
+                    <a href="#">Mas Informacion Aqui</a>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Mas Informacion</p>
+    </footer>
+
+</body>
+</html>
