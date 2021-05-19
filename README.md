@@ -1,11 +1,7 @@
 # HTML_CSS
 Mi código de HTML &amp; CSS de practicas de estudio y demas
-<<<<<<< HEAD
 ------------------------------------------------------------------
-# Semana HTML 
-=======
 # MES HTML 
->>>>>>> 66153e2132a1f9d5b383edc47c63ab09df35c6df
 ### Dia 1 12/4/2021
 Video numero 10 del Curso de HTML ...
 ------------------------------------------------------------------
