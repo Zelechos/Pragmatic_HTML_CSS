@@ -17,3 +17,8 @@ Mi código de HTML &amp; CSS de practicas de estudio y demas
 ### Video numero 21 del Curso de HTML ...
 [Video 21 del Curso](https://www.youtube.com/watch?v=_6S1sJMfVm0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=21)
 ------------------------------------------------------------------
+
+## Dia 5 23/5/2021
+### Video numero 21 del Curso de HTML ...
+[Video 22 del Curso](https://www.youtube.com/watch?v=kSMtCTQyga0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=22)
+------------------------------------------------------------------
