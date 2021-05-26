@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atributos Comunes</title>
 
+    <!-- style css -->
     <style>
         .parrafo1{
             color:red;
@@ -14,11 +15,22 @@
 </head>
 <body>
     <p class="parrafo1">Clases</p>
-    <p id="parrafo">Identificador</p>
-    <p>Titulo de tooltip</p>
-    <p>Datos pasados en la etiqueta</p>
+    <p id="parrafo">Identificador del Parrafo</p>
+    <p title="Este es un ejemplo de la etiqueta title">Titulo de tooltip</p>
+    <p id="parrafo2" data-ejemplo="DataSet para IA" >Datos pasados en la etiqueta</p>
+
+    <!-- script js -->
     <script>
-        
+        const p = document.getElementById("parrafo");
+        const p1 = document.getElementById("parrafo2");
+
+        console.log(p);
+        console.log(p.textContent);
+
+        console.log(p1.dataset.ejemplo);
+
+
     </script>
+
 </body>
 </html>
