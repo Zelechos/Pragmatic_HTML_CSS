@@ -4,6 +4,7 @@
 # MES HTML 
 ## Dia 1 12/4/2021
 ### Video numero 10 del Curso de HTML ...
+[Video 19 del Curso](https://www.youtube.com/watch?v=a9iwELfRlqc&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=10)
 ------------------------------------------------------------------
 ## Dia 2 14/5/2021
 ### Video numero 16 del Curso de HTML ...
