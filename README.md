@@ -1,9 +1,10 @@
 # HTML_CSS
-Mi código de HTML &amp; CSS de practicas de estudio y demas
+## Mi código de HTML &amp; CSS de practicas de estudio y demas
 ------------------------------------------------------------------
 # MES HTML 
 ## Dia 1 12/4/2021
 ### Video numero 10 del Curso de HTML ...
+[Video 10 del Curso](https://www.youtube.com/watch?v=a9iwELfRlqc&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=10)
 ------------------------------------------------------------------
 ## Dia 2 14/5/2021
 ### Video numero 16 del Curso de HTML ...
@@ -32,3 +33,4 @@ Mi código de HTML &amp; CSS de practicas de estudio y demas
 ### Video numero 25 del Curso de HTML ...
 [Video 25 del Curso](https://www.youtube.com/watch?v=VM2kzigJxx8&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=25)
 ------------------------------------------------------------------
+
