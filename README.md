@@ -39,3 +39,8 @@
 [Video 31 del Curso](https://www.youtube.com/watch?v=mzikJcaKCRQ&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=31)
 ------------------------------------------------------------------
 
+## Dia 9 1/6/2021
+### Video numero 32 del Curso de HTML ...
+[Video 32 del Curso](https://www.youtube.com/watch?v=E8mSqf0QuBI&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=32)
+------------------------------------------------------------------
+
