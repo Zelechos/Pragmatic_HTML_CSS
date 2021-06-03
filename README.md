@@ -24,7 +24,7 @@
 [Video 22 del Curso](https://www.youtube.com/watch?v=kSMtCTQyga0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=22)
 ------------------------------------------------------------------
 
-## Dia 6 26/5/2021
+## Dia 6 26/5/2021   
 ### Video numero 24 del Curso de HTML ...
 [Video 24 del Curso](https://www.youtube.com/watch?v=gB7WM0EQfM0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=24)
 ------------------------------------------------------------------
@@ -42,5 +42,10 @@
 ## Dia 9 1/6/2021
 ### Video numero 32 del Curso de HTML ...
 [Video 32 del Curso](https://www.youtube.com/watch?v=E8mSqf0QuBI&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=32)
+------------------------------------------------------------------
+
+## Dia 10 2/6/2021
+### Video numero 35 del Curso de HTML ...
+[Video 35 del Curso](https://www.youtube.com/watch?v=c831wRTx_Fs&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=35)
 ------------------------------------------------------------------
 
