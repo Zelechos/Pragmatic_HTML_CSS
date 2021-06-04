@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrones de Diseño</title>
+</head>
+<body>
+    <header>
+        <h1>Patrones de Diseño</h1>
+        <nav>
+            <ul type="circle">
+                <li>
+                    <a href="#Introduccion">Que Son los Patrones de Diseño de Software?</a>
+                </li>
+                <li>
+                    <a href="#Pregunta">¿Por qué usar patrones de diseño?</a>
+                </li>
+                <li>
+                    <a href="#Tipos">Tipos de patrones de diseño</a>
+                </li>
+                <li>
+                    <a href="#Creacionales">Patrones Creacionales</a>
+                </li>
+                <li>
+                    <a href="#Introduccion">Que Son los Patrones de Diseño de Software?</a>
+                </li>
+                <li>
+                    <a href="#Introduccion">Que Son los Patrones de Diseño de Software?</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section>
+            <h2>Aprende Patrones de Diseño</h2>
+            <article id="Introduccion">
+                <header>
+                    <h3>¿Qué son los patrones de diseño de software?</h3>
+                </header>
+                <p>
+                    Si eres programador o estás despegando en el desarrollo informático y la programación, tarde o temprano te toparás con el término «patrones de diseño de software.<br>
+                    Es una solución general y reutilizable aplicable a diferentes problemas de diseño de software. Se trata de plantillas que identifican problemas en el sistema y proporcionan soluciones apropiadas a problemas generales a los que se han enfrentado los desarrolladores durante un largo periodo de tiempo, a través de prueba y error.<br>
+
+                    En 1994, cuatro autores Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides, a los que llamaron Gang of Four (GoF), publicaron un libro titulado Design Patterns, elementos de software orientado a objetos reutilizables. Con este trabajo se inició el concepto de patrón de diseño en el desarrollo de software y recoge 23 patrones de diseño comunes. Cada uno de ellos define la solución para resolver un determinado problema, facilitando además la reutilización del código fuente.<br>
+
+                    Existen muchísimos patrones de diseño de software e irán apareciendo cada vez más. En este post hablaremos de los más conocidos o los llamados patrones clásicos.
+                </p>
+                <footer>
+                    <a href="Contenido_Exercise_12.html#Post1">Mas Informacion</a>
+                </footer>
+            </article>
+            <article id="Pregunta">
+                <header>
+                    <h3>¿Por qué usar patrones de diseño?</h3>
+                </header>
+                <p>
+                    El gran crecimiento del sector de las tecnologías de la información ha hecho que las prácticas de desarrollo de software evolucionen. Antes se requería completar todo el software antes de realizar pruebas, lo que suponía encontrarse con problemas. Para ahorrar tiempo y evitar volver a la etapa de desarrollo una vez que este ha finalizado, se introdujo una práctica de prueba durante la fase de desarrollo. Esta práctica se usa para identificar condiciones de error y problemas en el código que pueden no ser evidentes en ese momento. En definitiva, los patrones de diseño te ayudan a estar seguro de la validez de tu código, ya que son soluciones que funcionan y han sido probados por muchísimos desarrolladores siendo menos propensos a errores. 
+                </p>
+                <footer>
+                    <a href="Contenido_Exercise_12.html#Post2">Mas Informacion</a>
+                </footer>
+            </article>
+            <article id="Tipos">
+                <header>
+                    <h3>Tipos de patrones de diseño</h3>
+                </header>
+                <p>
+                    Los patrones de diseño más utilizados se clasifican en tres categorías principales, cada patrón de diseño individual conforma un total de 23 patrones de diseño. Las cuatro categorías principales son:
+                </p>
+                <ol type="I">
+                    <li>Patrones Creacionales</li>
+                    <li>Patrones Estructurales</li>
+                    <li>Patrones de Comportamiento</li>
+                </ol>
+                <img src="https://profile.es/wp-content/media/Patrones-de-diseno-de-software.png" alt="images de patrones">
+                <footer>
+                    <a href="Contenido_Exercise_12.html#Post3">Mas Informacion</a>
+                </footer>
+            </article>
+            <article id="Creacionales">
+                <header>
+                    <h3>Patrones Creacionales</h3>
+                </header>
+                <p>
+                    Los patrones de creación proporcionan diversos mecanismos de creación de objetos, que aumentan la flexibilidad y la reutilización del código existente de una manera adecuada a la situación. Esto le da al programa más flexibilidad para decidir qué objetos deben crearse para un caso de uso dado.<br>
+                    Estos son los patrones creacionales:
+                </p>
+                <!-- Usamos una Lista de Definiciones -->
+                <dl>
+                    <dt> <a href="Contenido_Exercise_12.html#Post5">Abstract Factory</a></dt>
+                    <dd>
+                        En este patrón, una interfaz crea conjuntos o familias de objetos relacionados sin especificar el nombre de la clase.
+                    </dd>
+                    <dt><a href="Contenido_Exercise_12.html#Post6">Builder Patterns</a></dt>
+                    <dd>
+                        Permite producir diferentes tipos y representaciones de un objeto utilizando el mismo código de construcción. Se utiliza para la creación etapa por etapa de un objeto complejo combinando objetos simples. La creación final de objetos depende de las etapas del proceso creativo, pero es independiente de otros objetos.
+                    </dd>
+                    <dt><a href="Contenido_Exercise_12.html#Post7">Factory Method</a></dt>
+                    <dd>
+                        Proporciona una interfaz para crear objetos en una superclase, pero permite que las subclases alteren el tipo de objetos que se crearán. Proporciona instanciación de objetos implícita a través de interfaces comunes.
+                    </dd>
+                    <dt> <a href="Contenido_Exercise_12.html#Post8">Prototype</a></dt>
+                    <dd>
+                        Permite copiar objetos existentes sin hacer que su código dependa de sus clases. Se utiliza para restringir las operaciones de memoria / base de datos manteniendo la modificación al mínimo utilizando copias de objetos.
+                    </dd>
+                    <dt> <a href="Contenido_Exercise_12.html#Post9">Singleton</a></dt>
+                    <dd>
+                        Este patrón de diseño restringe la creación de instancias de una clase a un único objeto. 
+                    </dd>
+                </dl>
+                <footer>
+                    <a href="Contenido_Exercise_12.html#Post4">Mas Informacion</a>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

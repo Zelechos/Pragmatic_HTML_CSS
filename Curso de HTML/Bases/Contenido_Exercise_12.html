@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido</title>
+</head>
+<body>
+    <header>
+        <h1>Definiciones de Patrones de Diseño</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Patrones de Diseño</h2>
+            <article id="Post1" >
+                <header>
+                    <h3>Patron de Diseño</h3>
+                </header>
+                <p>
+                    Los patrones de diseño son unas técnicas para resolver problemas comunes en el desarrollo de software y otros ámbitos referentes al diseño de interacción o interfaces.<br>
+
+                    Un patrón de diseño resulta ser una solución a un problema de diseño. Para que una solución sea considerada un patrón debe poseer ciertas características. Una de ellas es que debe haber comprobado su efectividad resolviendo problemas similares en ocasiones anteriores. Otra es que debe ser reutilizable, lo que significa que es aplicable a diferentes problemas de diseño en distintas circunstancias.
+                </p>
+                <h3>Obejtivos de los Patrones</h3>
+                <p>Los patrones de diseño pretenden:</p>
+                <ul>
+                    <li>Proporcionar catálogos de elementos reusables en el diseño de sistemas de software.</li>
+                    <li>Evitar la reiteración en la búsqueda de soluciones a problemas ya conocidos y solucionados anteriormente.</li>
+                    <li>Formalizar un vocabulario común entre diseñadores</li>
+                    <li>Estandarizar el modo en que se realiza el diseño.</li>
+                    <li>Facilitar el aprendizaje a las nuevas generaciones de diseñadores condensando conocimiento ya existente.</li>
+                </ul>
+                <p>Asimismo, no pretenden:</p>
+                <ul>
+                    <li>Imponer ciertas alternativas de diseño frente a otras.</li>
+                    <li>Eliminar la creatividad inherente al proceso de diseño.</li>
+                </ul>
+                <p>
+                    No es obligatorio utilizar los patrones, solo es aconsejable en el caso de tener el mismo problema o similar que soluciona el patrón, siempre teniendo en cuenta que en un caso particular puede no ser aplicable. "Abusar o forzar el uso de los patrones puede ser un error".
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Introduccion">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post2" >
+                <header>
+                    <h3>Historia</h3>
+                </header>
+                <p>
+                    En 1979 el arquitecto Christopher Alexander aportó al mundo de la arquitectura el libro The Timeless Way of Building; en él proponía el aprendizaje y uso de una serie de patrones para la construcción de edificios de una mayor calidad, en la que esa mayor calidad se refería a la arquitectura antigua y la menor calidad correspondía a la arquitectura moderna, que el romper con la arquitectura antigua había perdido esa conexión con lo que las personas consideraban que era calidad.
+
+                    En palabras de este autor, "Cada patrón describe un problema que ocurre infinidad de veces en nuestro entorno, así como la solución al mismo, de tal modo que podemos utilizar esta solución un millón de veces más adelante sin tener que volver a pensarla otra vez."
+
+                    Los patrones que Christopher Alexander y sus colegas definieron, publicados en un volumen denominado A Pattern Language, son un intento de formalizar y plasmar de una forma práctica generaciones de conocimiento arquitectónico. Los patrones no son principios abstractos que requieran su redescubrimiento para obtener una aplicación satisfactoria, ni son específicos a una situación particular o cultural; son algo intermedio. Un patrón define una posible solución correcta para un problema de diseño dentro de un contexto dado, describiendo las cualidades invariantes de todas las soluciones. Dentro de las soluciones de Christopher Alexander se encuentran cómo se deben diseñar ciudades y dónde deben ir las perillas de las puertas.
+
+                    Más tarde, en 1987, Ward Cunningham y Kent Beck, sobrepasados por el pobre entrenamiento que recibían los nuevos programadores en orientación a objetos, se preguntaban cómo se podían capturar las buenas ideas para, luego de alguna manera, traspasarlas a los nuevos programadores recién instruidos en herencia y polimorfismo. Leyendo a Alexander se dieron cuenta del paralelo que existía entre la buena arquitectura propuesta por Alexander y la buena arquitectura OO, de modo que usaron varias ideas de Alexander para desarrollar cinco patrones de interacción hombre-ordenador (HCI) y publicaron un artículo en OOPSLA-87 titulado Using Pattern Languages for OO Programs.
+
+                    No obstante, no fue hasta principios de la década de 1990 cuando los patrones de diseño tuvieron un gran éxito en el mundo de la informática a partir de la publicación del libro Design Patterns escrito por el grupo Gang of Four (GoF) compuesto por Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides, en el que se recogían 23 patrones de diseño comunes.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Pregunta">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post3" >
+                <header>
+                    <h3>Tipos de Patrones de Diseño</h3>
+                </header>
+                <p>
+                    Según la escala o nivel de abstracción:
+                </p>
+                    <ol type="1">
+                        <li>
+                            Patrones de arquitectura: Aquellos que expresan un esquema organizativo estructural fundamental para sistemas de software.
+                        </li>
+                        <li>
+                            Patrones de diseño: Aquellos que expresan esquemas para definir estructuras de diseño (o sus relaciones) con las que construir sistemas de software.
+                        </li>
+                        <li>
+                            Dialectos: Patrones de bajo nivel específicos para un lenguaje de programación o entorno concreto.
+                        </li>
+                    </ol>
+                <p>
+                    Además, también es importante reseñar el concepto de "antipatrón de diseño", que con forma semejante a la de un patrón, intenta prevenir contra errores comunes de diseño en el software. La idea de los antipatrones es dar a conocer los problemas que acarrean ciertos diseños muy frecuentes, para intentar evitar que diferentes sistemas acaben una y otra vez en el mismo callejón sin salida por haber cometido los mismos errores.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Tipos">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post4" >
+                <header>
+                    <h3>Patrones Creacionales</h3>
+                </header>
+                <p>
+                    Los patrones creacionales proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Creacionales">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post5" >
+                <header>
+                    <h3>Abstract Factory (Fabrica Abstracta)</h3>
+                </header>
+                <p>
+                    Los patrones creacionales proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Creacionales">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post6" >
+                <header>
+                    <h3>Patrones Creacionales</h3>
+                </header>
+                <p>
+                    Los patrones creacionales proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Creacionales">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post7" >
+                <header>
+                    <h3>Patrones Creacionales</h3>
+                </header>
+                <p>
+                    Los patrones creacionales proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Creacionales">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post8" >
+                <header>
+                    <h3>Patrones Creacionales</h3>
+                </header>
+                <p>
+                    Los patrones creacionales proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Creacionales">Volver a Inicio</a>   
+                </footer>
+            </article>
+            <article id="Post9" >
+                <header>
+                    <h3>Patrones Creacionales</h3>
+                </header>
+                <p>
+                    Los patrones creacionales proporcionan varios mecanismos de creación de objetos que incrementan la flexibilidad y la reutilización del código existente.
+                </p>
+                <footer>    
+                    <a href="Exercise_12.html#Creacionales">Volver a Inicio</a>   
+                </footer>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
