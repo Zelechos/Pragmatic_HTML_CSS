@@ -49,3 +49,8 @@
 [Video 35 del Curso](https://www.youtube.com/watch?v=c831wRTx_Fs&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=35)
 ------------------------------------------------------------------
 
+## Dia 11 6/6/2021
+### Video numero 36 del Curso de HTML ...
+[Video 36 del Curso](https://www.youtube.com/watch?v=BJOPpp6cBrQ&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=36)
+------------------------------------------------------------------
+
