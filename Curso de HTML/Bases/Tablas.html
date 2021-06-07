@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
+    <style>
+        col{
+            background-color:violet;
+        }
+
+        col:nth-child(2){
+            background-color:green;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,6 +24,13 @@
         <table>
             <!-- titulo de la tabla -->
             <caption>HORARIO DE CLASES</caption>
+            
+            <!-- Grupo de Columnas -->
+            <colgroup>
+                <col span="5">
+                <col>
+            </colgroup>
+
             <!-- cabecera de la tabla -->
             <thead>
                 <tr>
