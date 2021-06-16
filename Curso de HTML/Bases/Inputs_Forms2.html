@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs de los Formularios 2</title>
+</head>
+<body>
+    <h1>Inputs de los Formularios 2</h1>
+
+    <h2>el formulario es el siguiente</h2>
+    <form>
+        <fieldset>
+
+            <legend>Datos Personales</legend>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+
+                <label for="lastname">Apellido</label>
+                <input type="text" id="lastname">
+            </div>
+            
+            <p>input tipo file</p>
+            <input type="file">
+
+            <p>etiqueta meter</p>
+            <label for="gasolina">Gasolina</label>
+            <meter id="gasolina" min="0" max="100" value="50" low="20" high="90" optimum="50"></meter>
+
+            <p>etiqueta progress</p>
+            <label for="task">Tarea 1</label>
+            <progress id="task" max="100" value="70"></progress>
+
+            <p>etiqueta textarea</p>
+            <label for="email">Email</label>
+            <textarea name="" id="email" cols="30" rows="10"></textarea>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
