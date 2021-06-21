@@ -24,3 +24,8 @@
 [v0.0.9](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.0.9)
 ------------------------------------------------------------------
 
+# Quinta Version
+### Dia 16 21/6/2021
+[v0.1.0](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.1.0)
+------------------------------------------------------------------
+
