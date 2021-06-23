@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET</title>
+</head>
+<body>
+    <h1>FORMULARIO GET</h1>
+    <form action="enviar.html" method="GET">
+
+        <label for="name">Nombre</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="lastname">Apellido</label><br>
+        <input type="text" id="lastname" name="lastname"><br>
+
+        <label for="age">Edad</label><br>
+        <input type="number" id="age" name="age" min="18" max="99"><br>
+
+        <label for="birth">Fecha de Nacimiento</label><br>
+        <input type="date" id="birth" name="birth"><br>
+
+        <label for="telephon">Numero de Telefono</label><br>
+        <input type="tel" id="telephon" name="telephon"><br>
+
+        <label for="correo">Email</label><br>
+        <input type="email" id="correo" name="correo"><br>
+
+        <label for="contraseña">Password</label><br>
+        <input type="password" id="contraseña" name="contraseña"><br>
+
+        <label for="web">Portafolio</label><br>
+        <input type="url" id="web" name="web"><br>
+
+        <label for="tech">Tecnologia</label><br>
+        <input type="list" list="tech" name="tech"><br>
+        <datalist id="tech">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React Js">React Js</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="PHP">PHP</option>
+                <option value="Node Js">Node Js</option>
+        </datalist>
+
+        <label for="skill">Area se Software</label><br>
+        <label>
+            <input type="radio" name="skill" value="Data Scientist">
+            Data Scientist
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="skill" value="Desarrollador Web" checked>
+            Desarrollador Web
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="skill" value="Desarrollador de Aplicaciones">
+            Desarrollador de Aplicaciones
+        </label>
+        <br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
