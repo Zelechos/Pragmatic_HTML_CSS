@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPR</title>
+</head>
+<body>
+    <h1>Device pixel Ratio</h1>
+
+    <h2>Como cargar diferentes tamaños de pendiendo del tamaño de pantalla </h2>
+
+    <p>
+        en ves de usar el atributo<code>&lt;img src=""&gt;</code> <br>
+        utilizamos el atributo para poner las imagenes requeridas segun el tamaño de pantalla que tengamos <br>
+        <code>&lt;img srcset="link de primera imagen , link de segunda imagen 3x "&gt;</code> <br>
+        
+        el 3x que le sigue a la ruta de la seguna imagenes para indicarle al navegador que si el Device Pixel Ratio es: <br>
+        3x (que seria subir el zoom de la pantalla a 300% , obvio tambien en moviles)<br>
+        2x (que seria subir el zoom de la pantalla a 200%, obvio tambien en moviles) y asi etc<br>
+        entonces se muestre esa imagen ya que por defecto no funciona automaticamente
+
+    </p>
+    <img srcset="../assets/images/grande.jpg,
+                ../assets/images/chica.jpg 2x " alt="">
+</body>
+</html>
