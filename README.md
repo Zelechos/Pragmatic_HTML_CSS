@@ -2,7 +2,6 @@
 ## Mi código de HTML &amp; CSS de practicas de estudio y demas
 ------------------------------------------------------------------
 # Aprendiendo HTML
-## Actualmente me encuentro en el Video 53 de 71
 ------------------------------------------------------------------
 # Version v0.0.6
 ### Dia 10 2/6/2021
