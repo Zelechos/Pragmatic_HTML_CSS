@@ -49,3 +49,8 @@
 ### Dia 18 26/6/2021
 [v0.1.4](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.1.4)
 ------------------------------------------------------------------
+
+# Decima Version
+### Dia 19 27/6/2021
+[v0.1.5](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.1.5)
+------------------------------------------------------------------
