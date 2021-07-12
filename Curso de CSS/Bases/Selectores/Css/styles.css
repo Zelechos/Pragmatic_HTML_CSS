@@ -31,6 +31,87 @@ li{
 }
 
 /* Selectores de atributo */
+/* 
+    Selectores de atributo -> id
+*/
+#subtitle{
+    background-color:lightskyblue;
+}
+
+/* 
+    Selectores de atributo -> clase
+*/
+.text{
+    background-color: red;
+}
+
+/* 
+    Selectores otros atributos
+*/
+
+/* [atributo] */
+
+[href]{
+    font-size: 25px;
+}
+
+/* [atributo="valor"] */
+[href="#post1"]{
+    background-color: red;
+}
+[href="#post2"]{
+    background-color: orange;
+}
+[href="#post3"]{
+    background-color: yellow;
+}
+[href="#post4"]{
+    background-color: lime;
+}
+[href="#post5"]{
+    background-color: blue;
+}
+[href="#post6"]{
+    background-color: blueviolet;
+}
+[href="#post7"]{
+    background-color: magenta;
+}
+
+/*
+Selecciona al valor que inicio con ese nombre
+[atributo^="valor"] 
+ */
+[href^="enlace"]{
+    background-color: green;
+}
+
+
+/*
+Selecciona al valor que coincida no importa pero 
+tiene que estar el valor en el atributo
+[atributo*="valor"] 
+ */
+[href*="info"]{
+    background-color: black;
+}
+
+/*
+Selecciona a la palabra final que tiene un valor
+[atributo$="valor"] 
+ */
+[href$="ether"]{
+    background-color: aquamarine;
+}
+
+
+/*
+Selecciona a la palabra que tiene un guion despues
+[atributo|="valor"] 
+ */
+[lang|="en"]{
+    background-color: darkslateblue;
+}
 
 
 /* SELECTORES COMPUESTOS */ 
