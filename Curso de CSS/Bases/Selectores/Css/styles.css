@@ -1,21 +1,19 @@
 /* SELECTORES */
 
-
 /* SELECTORES SIMPLES */
 /* Selectores elementales */
         
 /* 
     Selector Universal -> *
 */
-*{
-    background-color: blueviolet;
-}
-
+/* *{
+    background-color: black;
+} */
 /*
     Selectores de tipo o de etiqueta -> (Nombre de la Etiqueta)
 */
-h1{
-    background-color:lightcyan;
+h2{
+    background-color:darkred;
 }
 
 p{
@@ -27,9 +25,12 @@ ul{
 }
 
 li{
-    background-color: white;
+    background-color: darkgoldenrod;
 }
 
+nav{
+    margin-bottom: 15px;
+}
 /* Selectores de atributo */
 /* 
     Selectores de atributo -> id
@@ -52,7 +53,7 @@ li{
 /* [atributo] */
 
 [href]{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* [atributo="valor"] */
@@ -104,6 +105,13 @@ Selecciona a la palabra final que tiene un valor
     background-color: aquamarine;
 }
 
+[class $= "first"]{
+    background-color: darkgray;
+}
+
+[class $= "second"]{
+    background-color: darkolivegreen;
+}
 
 /*
 Selecciona a la palabra que tiene un guion despues
@@ -119,3 +127,12 @@ Selecciona a la palabra que tiene un guion despues
     /* Selectores combinadores */
     /* PseudoClases - PseudoElementos */
 
+/* Selector agrupado se toma todas las clases
+    que tengan una coincidencia de estilos y 
+    se optimiza
+    se llama a las clases separando con una 
+    "," cada elemeto
+ */
+.texto ,.texto-2 ,.texto-3 ,.texto-4{
+    background-color:steelblue;
+}
