@@ -136,3 +136,34 @@ Selecciona a la palabra que tiene un guion despues
 .texto ,.texto-2 ,.texto-3 ,.texto-4{
     background-color:steelblue;
 }
+
+/* SELECTORES COMBINADORES*/
+/*(Selectores decendientes) funciona pero 
+no es recomendable
+*/
+div .title-2{
+    background-color:teal;
+}
+
+/*(Selectores de hermano siguiente) 
+solo sirve con el hermano siguiente o mejor
+dicho la etiqueta que tiene por debajo
+*/
+.texto-3 + .texto-4{
+    background-color:darkblue;
+}
+
+.title-2 ~ p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*(Selectores de hijo directo) 
+solo sirve con los la etiquetas que sean
+hijos directos de la etiqueta padre y no 
+hijos de otro padre
+*/
+.container > p{
+    font-style: oblique;
+}
+
+
