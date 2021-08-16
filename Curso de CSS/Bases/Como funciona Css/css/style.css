@@ -1,0 +1,64 @@
+/*
+Como funciona CSS?
+    Especificidad -> Establece que tan especifico es un selector
+    para saber que estilo aplicar
+
+
+    El calculo de la Especificidad se realiza con la siguiente formula:
+        Etiquetas Pseudoelementos : 1
+        Clases , Atributos y Pseudoclases : 10
+        Ids : 100
+        Estilos en Lineas : 1000
+        !important : GANA A TODOS LOS VALORES ANTERIORES Y NO SE USA NUNCA!!!
+
+        Cascada : Funciona siempre y cuando la especificidad es la Misma
+        Herencia : Es la capacidad que tienen algunos elementos de heredar 
+        algunas propiedades de sus elementos contenedores (Padres , Abuelo , etc)
+*/
+
+/*SIEMPRE ES RECOMENDABLE USAR SOLO CLASES*/
+
+h1.title#title{
+    background-color: darkgrey;
+}
+
+h1{
+    background-color: rebeccapurple;
+}
+
+.title{
+    background-color: blue;
+}
+
+#title{
+    background-color: green;
+}
+
+h1.title{
+    background-color: red;
+}
+
+h1#title{
+    background-color: darkslateblue;
+}
+
+.text{
+    color: darkorchid;
+}
+
+/*ATENCIIOOOONN PARA FORZAR LA HERENCIA ENTRE ELEMENTOS SE USAR
+    propiedad : inherit;
+*/
+.link{
+    color: inherit;
+}
+
+.list{
+    color: blueviolet;
+}
+/*ATENCIIOOOONN PARA EVITAR LA HERENCIA ENTRE ELEMENTOS SE USAR
+    propiedad : initial;
+*/
+.list-item{
+    color: initial;
+}

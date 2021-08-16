@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Como Funciona CSS</title>
 </head>
 <body>
     <header>
-        <h1>Como Funciona CSS</h1>
+        <h1 class="title" id="title">Como Funciona CSS</h1>
     </header>
     <main>
         <section>
-            <h2>Subtitulo</h2>
+            <h2>Especificidad</h2>
             <article>
                 <header>
-                    <h2>articulo</h2>
+                    <h2>El calculo de la Especificidad se realiza con la siguiente formula:</h2>
                     <p>
-                        donde andas pescador?
+                        Etiquetas Pseudoelementos : 1 <br>
+                        Clases , Atributos y Pseudoclases : 10<br>
+                        Ids : 100<br>
+                        Estilos en Lineas : 1000<br>
+                        !important : GANA A TODOS LOS VALORES ANTERIORES Y NO SE USA NUNCA!!!
                     </p>
+                    <hr>
+                    <h2>Cascada & Herencia</h2>
+                    <p>
+                        Cascada : Funciona siempre y cuando la especificidad es la Misma<br>
+                        Herencia : Es la capacidad que tienen algunos elementos de heredar 
+                        algunas propiedades de sus elementos contenedores (Padres , Abuelo , etc)
+                    </p>
+                    <h3>Ejemplo de Herencia :</h3>
+                    <p class="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime dignissimos adipisci aliquam fugit! Eos neque porro molestias, reprehenderit commodi laborum quia minus! Rem, quae libero minima necessitatibus soluta neque doloribus!
+                        <a class="link" href="#">Link para el Curso</a>
+                    </p>
+                    <ul class="list">
+                        <li class="list">Java</li>
+                        <li class="list-item">Javascript</li>
+                        <li class="list">Python</li>
+                        <li class="list-item">C</li>
+                    </ul>
                     <footer>
                     </footer>
                 </header>
