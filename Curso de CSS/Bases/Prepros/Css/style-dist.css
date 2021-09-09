@@ -1,0 +1,21 @@
+
+body{
+    background-color: #222222;
+}
+
+h1{
+    background-color:#ffffff;
+    color: #000000;
+}
+
+.example{
+    display: -ms-grid;
+    display: grid;
+    transition: all 5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: linear-gradient(to bottom , white black);
+}
+

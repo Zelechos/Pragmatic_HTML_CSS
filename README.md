@@ -29,3 +29,4 @@
 |[v0.2.0](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.2.0)| 31/7/2021 |Dia 4 |
 |[v0.2.1](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.2.1)| 7/8/2021 |Dia 5 |
 |[v0.2.2](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.2.2)| 16/8/2021 |Dia 6 |
+|[v0.2.3](https://github.com/Zelechos/HTML_CSS/releases/tag/v0.2.3)| 9/9/2021 |Dia 7 |

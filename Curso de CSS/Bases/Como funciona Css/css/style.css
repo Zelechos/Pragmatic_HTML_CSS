@@ -46,19 +46,21 @@ h1#title{
     color: darkorchid;
 }
 
-/*ATENCIIOOOONN PARA FORZAR LA HERENCIA ENTRE ELEMENTOS SE USAR
+/*ATENCIIOOOONN PARA FORZAR LA HERENCIA ENTRE ELEMENTOS SE USA
     propiedad : inherit;
 */
 .link{
     color: inherit;
 }
 
-.list{
+.list-item{
     color: blueviolet;
+    list-style: none;
 }
+
 /*ATENCIIOOOONN PARA EVITAR LA HERENCIA ENTRE ELEMENTOS SE USAR
     propiedad : initial;
 */
-.list-item{
+.list-item-extra{
     color: initial;
 }
