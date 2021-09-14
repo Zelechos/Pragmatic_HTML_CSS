@@ -1,0 +1,38 @@
+/* 
+    NOTA: LOS MARGENES VERTICALES COLAPSAN!!!!!!!!!
+*/
+*{
+    background-color: #000;
+    color: white;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: darkslateblue;
+    height: 100px;
+    margin-bottom: 20px;
+    /*  formas de quitarle el colapsado de margenes al h1 en un header*/
+    /* overflow: hidden; */
+    /* padding-top:0.1px; */
+    border-top: 0.1px solid darkslateblue;
+}
+
+.box-1,
+.box-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: darkcyan;
+    width: 300px;
+    height: 300px;
+}
+
+.box-2{
+    margin-top: 20px;
+}
+
+.title{
+    margin: 0;
+    margin-top: 30px;
+    background-color: initial;
+}
