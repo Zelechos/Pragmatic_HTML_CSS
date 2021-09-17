@@ -1,0 +1,1 @@
+*{box-sizing:border-box}.box{background-color:green;width:200px;padding:50px;text-align:center;margin-left:auto;margin-right:auto;border-radius:30px;box-shadow:inset -5px -5px 5px}.box:hover{box-shadow:5px 5px darkgreen,35px 35px darkolivegreen,55px 55px darkcyan}
